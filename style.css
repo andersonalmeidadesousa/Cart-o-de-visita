@@ -1,0 +1,73 @@
+body{
+
+   background-image: url("backgorund.png");
+   background-color: darkgray;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    position:middle;
+
+}
+
+ul{
+  list-style-image:url("Insta.png");
+  list-style-position:inside ;
+  margin: 10;
+  padding: 10;
+
+
+  background-color:none ;
+
+}
+
+ol{
+
+  list-style-type: upper-alpha;
+  list-style-position:inside ;
+  margin: 0;
+  padding: 10px;
+
+
+  background-color:#59e ;
+
+}
+
+.lista1{
+    list-style-image: url("Insta.png");
+    background-color: none;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.imagens{
+    list-style-type: none;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    position: middle; 
+}
+.links{
+    color: black;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    position: middle;
+    left: 80px;
+}
+
+.lista2{
+  list-style-image: url(github.png);
+}
+
+.lista3{
+
+  list-style-image: url(Youtube.png);
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
